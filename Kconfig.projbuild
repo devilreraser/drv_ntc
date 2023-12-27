@@ -1,0 +1,7 @@
+menu "Component drv_ntc Configuration"
+
+    config DRV_NTC_USE
+        bool "Use drv_ntc component"
+        default y
+        
+endmenu
