@@ -109,8 +109,8 @@ float adc_voltage_range_millivolts = 3300.0;
  **************************************************************************** */
 void drv_ntc_init(void)
 {
-    //esp_log_level_set(TAG, ESP_LOG_DEBUG);
-    esp_log_level_set(TAG, ESP_LOG_INFO);
+    esp_log_level_set(TAG, ESP_LOG_DEBUG);
+    //esp_log_level_set(TAG, ESP_LOG_INFO);
 }
 
 void drv_ntc_setup(drv_ntc_e_index_t ntc_index, drv_ntc_e_type_t ntc_type, float beta_b25_bYY_k, float base_resistance_ohm, float pull_up_resistance_ohm, float pull_down_resistance_ohm)
